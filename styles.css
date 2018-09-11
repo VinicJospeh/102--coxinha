@@ -1,0 +1,52 @@
+body{
+    margin:0;
+
+}
+h1{
+    color:blue;
+    text-align: center;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:gray
+}
+header img{
+    border:5px solid black;
+    margin-right: 10px;
+    padding: 5px;
+    width:6vw; 
+    /* viewport width */
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+    margin-left:10px;
+    font-size:12pt;
+}
+aside{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text h2,.text p{
+    padding: 10px;
+    margin: 20px 10px 0pxx 10px; /*top right bottom(down) left*/
+    color: darkcyan
+}
+.text p{
+
+}
+iframe{
+border:5px solid black;
+}
+.receita{
+    font-size:11pt;
+    line-height:20px;
+    letter-spacing:1px;
+    margin-left: 15px;
+    margin-top:10px;
+
+}
